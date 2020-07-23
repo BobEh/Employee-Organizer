@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub Repos\\Web applications\\Employee Organizer\\Employee-Organizer\\EmployeeOrganizer\\EmployeeOrganizer.csproj": {}
+    "C:\\Misc\\GitHub Repos\\Employee-Organizer\\EmployeeOrganizer\\EmployeeOrganizer.csproj": {}
   },
   "projects": {
-    "D:\\GitHub Repos\\Web applications\\Employee Organizer\\Employee-Organizer\\EmployeeOrganizer\\EmployeeOrganizer.csproj": {
+    "C:\\Misc\\GitHub Repos\\Employee-Organizer\\EmployeeOrganizer\\EmployeeOrganizer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub Repos\\Web applications\\Employee Organizer\\Employee-Organizer\\EmployeeOrganizer\\EmployeeOrganizer.csproj",
+        "projectUniqueName": "C:\\Misc\\GitHub Repos\\Employee-Organizer\\EmployeeOrganizer\\EmployeeOrganizer.csproj",
         "projectName": "EmployeeOrganizer",
-        "projectPath": "D:\\GitHub Repos\\Web applications\\Employee Organizer\\Employee-Organizer\\EmployeeOrganizer\\EmployeeOrganizer.csproj",
-        "packagesPath": "C:\\Users\\Bobby\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub Repos\\Web applications\\Employee Organizer\\Employee-Organizer\\EmployeeOrganizer\\obj\\",
+        "projectPath": "C:\\Misc\\GitHub Repos\\Employee-Organizer\\EmployeeOrganizer\\EmployeeOrganizer.csproj",
+        "packagesPath": "C:\\Users\\bobby\\.nuget\\packages\\",
+        "outputPath": "C:\\Misc\\GitHub Repos\\Employee-Organizer\\EmployeeOrganizer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bobby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bobby\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,6 +54,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
