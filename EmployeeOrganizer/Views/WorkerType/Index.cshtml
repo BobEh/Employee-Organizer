@@ -1,0 +1,14 @@
+﻿@model WorkerTypeViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="text-center">
+    <h4>Worker Types</h4>
+    <br />
+    <form asp-controller="Worker" asp-action="Index" method="post">
+        <select asp-for="Id" asp-items="@Model.GetWorkerTypes()"
+                class="form-group form-control" onchange="this.form.submit();">
+            <option selected style="display:none;">Select Worker Type</option>
+        </select>
+    </form>
+</div>

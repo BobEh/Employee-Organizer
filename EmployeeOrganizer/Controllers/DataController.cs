@@ -18,16 +18,18 @@ namespace EmployeeOrganizer.Controllers
         public async Task<IActionResult> Index()
         {
             UtilityModel util = new UtilityModel(_ctx);
+            string msg = "";
             var json = await getWorkersJsonFromWebAsync();
             try
             {
-                ViewBag.LoadedMsg = (util.loadWorkerTables(json)) ? "Worker Type and Worker tables loaded" : "problem loading tables";
+                msg = (util.loadWorkerTables(json)) ? "tables loaded" : "problem loading tables";
             }
             catch (Exception ex)
             {
-                ViewBag.LoadedMsg = ex.Message;
+                msg = ex.Message;
             }
-            return View("Index");
+            ViewBag.LoadedMsg = msg;
+            return View();
         }
 
         private async Task<String> getWorkersJsonFromWebAsync()

@@ -144,3 +144,5 @@ C:\Misc\GitHub Repos\Employee-Organizer\EmployeeOrganizer\bin\Debug\netcoreapp3.
 C:\Misc\GitHub Repos\Employee-Organizer\EmployeeOrganizer\obj\Debug\netcoreapp3.0\EmployeeOrganizer.csproj.CoreCompileInputs.cache
 C:\Misc\GitHub Repos\Employee-Organizer\EmployeeOrganizer\obj\Debug\netcoreapp3.0\EmployeeOrganizer.MvcApplicationPartsAssemblyInfo.cache
 C:\Misc\GitHub Repos\Employee-Organizer\EmployeeOrganizer\obj\Debug\netcoreapp3.0\Razor\Views\Data\Index.cshtml.g.cs
+C:\Misc\GitHub Repos\Employee-Organizer\EmployeeOrganizer\obj\Debug\netcoreapp3.0\Razor\Views\WorkerType\Index.cshtml.g.cs
+C:\Misc\GitHub Repos\Employee-Organizer\EmployeeOrganizer\obj\Debug\netcoreapp3.0\Razor\Views\Worker\Index.cshtml.g.cs
